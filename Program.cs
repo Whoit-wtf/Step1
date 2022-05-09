@@ -11,7 +11,7 @@ OutputArray("После пузырьковой сортировки", n);
 int InputArray()
 {
     int n;
-    Console.Write("Ввести кол-во чисел: ");
+    Console.Write("Введите кол-во чисел: ");
     n = Convert.ToInt32(Console.ReadLine());
     for (int i = 0; i < n; i++)
     {
